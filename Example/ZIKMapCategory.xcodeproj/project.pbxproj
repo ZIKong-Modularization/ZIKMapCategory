@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56B18739D84E3E25E66CF65D /* Pods_ZIKMapCategory_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FA2D092273A33A21EE9099 /* Pods_ZIKMapCategory_Example.framework */; };
+		5A58688BB018FA5938D03B76 /* libPods-ZIKMapCategory_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B71FF87973D54EB8444199 /* libPods-ZIKMapCategory_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		FF1A2FEBBA94BBA37698D4E5 /* Pods_ZIKMapCategory_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B388B1C5F5578AE693794B /* Pods_ZIKMapCategory_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +37,7 @@
 
 /* Begin PBXFileReference section */
 		0D2CD7206C663CFE4CA37063 /* ZIKMapCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZIKMapCategory.podspec; path = ../ZIKMapCategory.podspec; sourceTree = "<group>"; };
-		155A8C65D5B35FB1FF937434 /* Pods-ZIKMapCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZIKMapCategory_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZIKMapCategory_Tests/Pods-ZIKMapCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		47FA2D092273A33A21EE9099 /* Pods_ZIKMapCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZIKMapCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50E17337E1AD39F9E687A4A1 /* Pods-ZIKMapCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZIKMapCategory_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZIKMapCategory_Tests/Pods-ZIKMapCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		28B71FF87973D54EB8444199 /* libPods-ZIKMapCategory_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZIKMapCategory_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZIKMapCategory_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZIKMapCategory_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,7 +74,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				56B18739D84E3E25E66CF65D /* Pods_ZIKMapCategory_Example.framework in Frameworks */,
+				5A58688BB018FA5938D03B76 /* libPods-ZIKMapCategory_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +85,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				FF1A2FEBBA94BBA37698D4E5 /* Pods_ZIKMapCategory_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +119,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				47FA2D092273A33A21EE9099 /* Pods_ZIKMapCategory_Example.framework */,
 				D3B388B1C5F5578AE693794B /* Pods_ZIKMapCategory_Tests.framework */,
+				28B71FF87973D54EB8444199 /* libPods-ZIKMapCategory_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,8 +186,6 @@
 			children = (
 				DDBBBBE50ACC0425B5984EE3 /* Pods-ZIKMapCategory_Example.debug.xcconfig */,
 				B05E88BBED903AD37ECEA60A /* Pods-ZIKMapCategory_Example.release.xcconfig */,
-				50E17337E1AD39F9E687A4A1 /* Pods-ZIKMapCategory_Tests.debug.xcconfig */,
-				155A8C65D5B35FB1FF937434 /* Pods-ZIKMapCategory_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -223,12 +217,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ZIKMapCategory_Tests" */;
 			buildPhases = (
-				41149FCB310DD12CB092149B /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				9C893B98D18F1F100F776D1E /* [CP] Embed Pods Frameworks */,
-				F98797CD37531CF995B01FAE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -312,24 +303,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZIKMapCategory_Example/Pods-ZIKMapCategory_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		41149FCB310DD12CB092149B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZIKMapCategory_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6CF86B3732FF1CFC54BB43AA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,21 +323,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZIKMapCategory_Example/Pods-ZIKMapCategory_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9C893B98D18F1F100F776D1E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZIKMapCategory_Tests/Pods-ZIKMapCategory_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CEE7FAE15F9E33683785B295 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,21 +339,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F98797CD37531CF995B01FAE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZIKMapCategory_Tests/Pods-ZIKMapCategory_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -566,7 +509,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50E17337E1AD39F9E687A4A1 /* Pods-ZIKMapCategory_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -590,7 +532,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 155A8C65D5B35FB1FF937434 /* Pods-ZIKMapCategory_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

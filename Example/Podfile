@@ -1,12 +1,15 @@
+source 'https://github.com/ZIKong-Modularization/ZIKSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+#use_frameworks!
 platform :ios, '8.0'
-use_frameworks!
 
 target 'ZIKMapCategory_Example' do
-  pod 'ZIKMapCategory', :path => '../'
-  pod 'CTMediator'
-  target 'ZIKMapCategory_Tests' do
-    inherit! :search_paths
-
-    
-  end
+    pod 'ZIKMapCategory' #, :path => '../'
+    pod 'CTMediator'
+#  target 'ZIKMapCategory_Tests' do
+#    inherit! :search_paths
+#
+#    
+#  end
 end

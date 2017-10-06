@@ -5,16 +5,12 @@ PODS:
 
 DEPENDENCIES:
   - CTMediator
-  - ZIKMapCategory (from `../`)
-
-EXTERNAL SOURCES:
-  ZIKMapCategory:
-    :path: ../
+  - ZIKMapCategory
 
 SPEC CHECKSUMS:
   CTMediator: 83043d198b7ea73214d53375adfdd7f60edd4c1a
-  ZIKMapCategory: 1442f7cc9c0baacd1a470e7800fe321e9e9fbd96
+  ZIKMapCategory: ba6991abef691ecb47c288831e0b566910a0d8ee
 
-PODFILE CHECKSUM: 0383e8f75bd86bc7f643373dd6bfdd305202bc75
+PODFILE CHECKSUM: a2d96c758b0d6e11896d0713b0e7d97cf442a813
 
 COCOAPODS: 1.4.0.beta.1

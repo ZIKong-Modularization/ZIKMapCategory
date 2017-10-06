@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "CTMediator+SAMIMMapModule.h"
 
 FOUNDATION_EXPORT double ZIKMapCategoryVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZIKMapCategoryVersionString[];
