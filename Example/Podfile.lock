@@ -1,6 +1,6 @@
 PODS:
   - CTMediator (12)
-  - ZIKMapCategory (0.1.0):
+  - ZIKMapCategory (0.2.0):
     - CTMediator
 
 DEPENDENCIES:
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CTMediator: 83043d198b7ea73214d53375adfdd7f60edd4c1a
-  ZIKMapCategory: 9dc3cbb76dece20838356b7c33f992e2ae0e422e
+  ZIKMapCategory: 5ea9907c001b3429401ad04e81fbdcbadf1fb583
 
 PODFILE CHECKSUM: 2b1d9c336b6aa7a56f4642e03373244ec782ce82
 
