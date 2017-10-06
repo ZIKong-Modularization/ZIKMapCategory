@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22DE0A62BE2ACF6A6279474EBF486FD9 /* ZIKMapCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2F64ED2E308E2522805DC346463612 /* ZIKMapCategory-dummy.m */; };
+		1D4D24642AD6FCC5B66BE15BEEDBF6EB /* ZIKMapCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C34D0D28E681F36189EFC4AD01E9BF /* ZIKMapCategory-dummy.m */; };
 		2DBA0352EEC0D1CAF71BDC0607AD55A4 /* Pods-ZIKMapCategory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E621471B409E7572078A3116704A70DB /* Pods-ZIKMapCategory_Example-dummy.m */; };
-		2F56294F5B03537BF5F5CB16D5C723EA /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A3D91739DFC1CEA81EDF1FC40EDFBC /* ReplaceMe.m */; };
 		506948B820E1D448C6AFE2CE39B58B37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		61E5C3FD58D84C06AAB769DCAD6A8011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		8A7A4AF399044A4E5C93EC0C05251413 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5179D0B4CF09BAA765FF79F2DF138B /* CTMediator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7D8B5F54C433C4788DAEDD954A4B5704 /* CTMediator+SAMIMMapModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D061DF0388FCAF2361A1E7644CCA2337 /* CTMediator+SAMIMMapModule.m */; };
+		7D955D6BC3E98BE1747E8DAC2479D095 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A72493A91555775737B755BC388621 /* ReplaceMe.m */; };
+		8A7A4AF399044A4E5C93EC0C05251413 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25428AF0ECCB14CBD29B34995D4D65 /* CTMediator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		8B3BA7D52CE22CE2BA9606279D0C1EC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		A9669B6C3B13147F2378BA930E7E2DB7 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8373A1CF24AD4A06C6E8F4BBED893D9A /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2928E30C12E38F6708C9A6DC931E4DC /* CTMediator+SAMIMMapModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CDE5FF2CE5E375A0E70A9E31189484 /* CTMediator+SAMIMMapModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9669B6C3B13147F2378BA930E7E2DB7 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC3AF5E9C9654885E44C93F528B98A8 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3BD58B86A5BBE89BA4292BDBCA895B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		E5099EACFD2096A23076CD796C08B23D /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 540E0706010C3FDA44FA9D9A45D00B22 /* CTMediator-dummy.m */; };
+		E5099EACFD2096A23076CD796C08B23D /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC703DABA102D7C11736C65EDA7BFEBA /* CTMediator-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,27 +47,29 @@
 
 /* Begin PBXFileReference section */
 		01E9479CD94E84DF2262F3FF8A55C918 /* Pods-ZIKMapCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKMapCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
-		077C323550851119D3841D2B0269ECE0 /* ZIKMapCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIKMapCategory.xcconfig; sourceTree = "<group>"; };
+		02CDE5FF2CE5E375A0E70A9E31189484 /* CTMediator+SAMIMMapModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+SAMIMMapModule.h"; path = "ZIKMapCategory/Classes/CTMediator+SAMIMMapModule.h"; sourceTree = "<group>"; };
+		0D7EDB1EF9A6F00CDD801632B2E20111 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
 		0E7CB5AB779B7D62C4CCC1955DBB1770 /* libZIKMapCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZIKMapCategory.a; path = libZIKMapCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C5179D0B4CF09BAA765FF79F2DF138B /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		428ED26EE53B6927A0014DD808CF4A85 /* Pods-ZIKMapCategory_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZIKMapCategory_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		540E0706010C3FDA44FA9D9A45D00B22 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		54A72493A91555775737B755BC388621 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZIKMapCategory/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		6389DDA11B247C64F83D69EB24B6DA46 /* Pods-ZIKMapCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKMapCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6912A67F7AA8BC738A75281CBABE7C16 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		6B341D3F7BEA905D0D78B07C22A7B07C /* ZIKMapCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIKMapCategory.xcconfig; sourceTree = "<group>"; };
+		6D25428AF0ECCB14CBD29B34995D4D65 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		79A9887031FF3A79BD849B44FEFFC4DB /* libCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCTMediator.a; path = libCTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8373A1CF24AD4A06C6E8F4BBED893D9A /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
 		83F050737EEF500AE07DE7D3BF6304C3 /* Pods-ZIKMapCategory_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKMapCategory_Example-resources.sh"; sourceTree = "<group>"; };
+		8DE413EB4F8139A7AFA6C89CD231CABB /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB31E5593D3D0D8473CB6C8A880EAC4 /* ZIKMapCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIKMapCategory-prefix.pch"; sourceTree = "<group>"; };
 		A12DAD87D9B8B6CAC92E1D927AB17627 /* libPods-ZIKMapCategory_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZIKMapCategory_Example.a"; path = "libPods-ZIKMapCategory_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B018EBA1F25DA76B8E940DEBAD450F85 /* Pods-ZIKMapCategory_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKMapCategory_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B3C34D0D28E681F36189EFC4AD01E9BF /* ZIKMapCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZIKMapCategory-dummy.m"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BB2F64ED2E308E2522805DC346463612 /* ZIKMapCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZIKMapCategory-dummy.m"; sourceTree = "<group>"; };
-		BFDA3E2586EEA03448EA0DE5032B2ECE /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
-		D13C97A48B139C5F64F6586220A13615 /* ZIKMapCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIKMapCategory-prefix.pch"; sourceTree = "<group>"; };
+		D061DF0388FCAF2361A1E7644CCA2337 /* CTMediator+SAMIMMapModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+SAMIMMapModule.m"; path = "ZIKMapCategory/Classes/CTMediator+SAMIMMapModule.m"; sourceTree = "<group>"; };
 		D4F4A7719C2C5517526341C9B80B9F02 /* Pods-ZIKMapCategory_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZIKMapCategory_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D6A3D91739DFC1CEA81EDF1FC40EDFBC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZIKMapCategory/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E621471B409E7572078A3116704A70DB /* Pods-ZIKMapCategory_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZIKMapCategory_Example-dummy.m"; sourceTree = "<group>"; };
+		EAC3AF5E9C9654885E44C93F528B98A8 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		FC703DABA102D7C11736C65EDA7BFEBA /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,37 +101,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		34AB601C56B15FDFB84BEBD416F31828 /* Support Files */ = {
+		16216A3033A9965DA5C0FC9A497AB9F5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6912A67F7AA8BC738A75281CBABE7C16 /* CTMediator.xcconfig */,
-				540E0706010C3FDA44FA9D9A45D00B22 /* CTMediator-dummy.m */,
-				BFDA3E2586EEA03448EA0DE5032B2ECE /* CTMediator-prefix.pch */,
+				726BD01356AF77D3E72F095D4FF43AAE /* CTMediator */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/CTMediator";
-			sourceTree = "<group>";
-		};
-		36F49E3273D9D47EDD1B1E90D07B7D8B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				077C323550851119D3841D2B0269ECE0 /* ZIKMapCategory.xcconfig */,
-				BB2F64ED2E308E2522805DC346463612 /* ZIKMapCategory-dummy.m */,
-				D13C97A48B139C5F64F6586220A13615 /* ZIKMapCategory-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ZIKMapCategory";
-			sourceTree = "<group>";
-		};
-		38686D4E6943581CF84BA089A9BE1746 /* CTMediator */ = {
-			isa = PBXGroup;
-			children = (
-				8373A1CF24AD4A06C6E8F4BBED893D9A /* CTMediator.h */,
-				2C5179D0B4CF09BAA765FF79F2DF138B /* CTMediator.m */,
-				34AB601C56B15FDFB84BEBD416F31828 /* Support Files */,
-			);
-			name = CTMediator;
-			path = CTMediator;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -147,6 +126,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		46AD910E34496921A389A28F025AA9AC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E65542FF3B96593000480866364A51BB /* ZIKMapCategory */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		4D1AEF90D6D81F4663B4619456844174 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,34 +144,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		726BD01356AF77D3E72F095D4FF43AAE /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				EAC3AF5E9C9654885E44C93F528B98A8 /* CTMediator.h */,
+				6D25428AF0ECCB14CBD29B34995D4D65 /* CTMediator.m */,
+				D7FD7919CAEE3A0F495A86D3031AF508 /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				46AD910E34496921A389A28F025AA9AC /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				7EA65E703AA9F04852559B3218102155 /* Pods */,
+				16216A3033A9965DA5C0FC9A497AB9F5 /* Pods */,
 				4D1AEF90D6D81F4663B4619456844174 /* Products */,
 				9183985402DE3819BEAA325AE7514D90 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7E6FBF7D90E24FC050BEE3A697E57DA1 /* ZIKMapCategory */ = {
-			isa = PBXGroup;
-			children = (
-				D6A3D91739DFC1CEA81EDF1FC40EDFBC /* ReplaceMe.m */,
-				36F49E3273D9D47EDD1B1E90D07B7D8B /* Support Files */,
-			);
-			name = ZIKMapCategory;
-			path = ZIKMapCategory;
-			sourceTree = "<group>";
-		};
-		7EA65E703AA9F04852559B3218102155 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				38686D4E6943581CF84BA089A9BE1746 /* CTMediator */,
-				7E6FBF7D90E24FC050BEE3A697E57DA1 /* ZIKMapCategory */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		9183985402DE3819BEAA325AE7514D90 /* Targets Support Files */ = {
@@ -193,6 +173,40 @@
 				F119590775ABBF7FC6625EB25B9C7B0C /* Pods-ZIKMapCategory_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D7FD7919CAEE3A0F495A86D3031AF508 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D7EDB1EF9A6F00CDD801632B2E20111 /* CTMediator.xcconfig */,
+				FC703DABA102D7C11736C65EDA7BFEBA /* CTMediator-dummy.m */,
+				8DE413EB4F8139A7AFA6C89CD231CABB /* CTMediator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		DBBE73F150921DA0FB6B7D6D476A6FF7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B341D3F7BEA905D0D78B07C22A7B07C /* ZIKMapCategory.xcconfig */,
+				B3C34D0D28E681F36189EFC4AD01E9BF /* ZIKMapCategory-dummy.m */,
+				9DB31E5593D3D0D8473CB6C8A880EAC4 /* ZIKMapCategory-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZIKMapCategory";
+			sourceTree = "<group>";
+		};
+		E65542FF3B96593000480866364A51BB /* ZIKMapCategory */ = {
+			isa = PBXGroup;
+			children = (
+				02CDE5FF2CE5E375A0E70A9E31189484 /* CTMediator+SAMIMMapModule.h */,
+				D061DF0388FCAF2361A1E7644CCA2337 /* CTMediator+SAMIMMapModule.m */,
+				54A72493A91555775737B755BC388621 /* ReplaceMe.m */,
+				DBBE73F150921DA0FB6B7D6D476A6FF7 /* Support Files */,
+			);
+			name = ZIKMapCategory;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F119590775ABBF7FC6625EB25B9C7B0C /* Pods-ZIKMapCategory_Example */ = {
@@ -221,6 +235,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D976FA7DFA6BE056FF3D5E5F54846A6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2928E30C12E38F6708C9A6DC931E4DC /* CTMediator+SAMIMMapModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -245,8 +267,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B32287BA37C216118AED9C6560BC555B /* Build configuration list for PBXNativeTarget "ZIKMapCategory" */;
 			buildPhases = (
-				D87BE7BE825A45987A948C6EF4433AC5 /* Sources */,
+				E743B2C66066A92B1DC6A3A155C901FC /* Sources */,
 				A0131CF01A0799AE5BD5C98A89D5B782 /* Frameworks */,
+				D976FA7DFA6BE056FF3D5E5F54846A6F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -322,12 +345,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D87BE7BE825A45987A948C6EF4433AC5 /* Sources */ = {
+		E743B2C66066A92B1DC6A3A155C901FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F56294F5B03537BF5F5CB16D5C723EA /* ReplaceMe.m in Sources */,
-				22DE0A62BE2ACF6A6279474EBF486FD9 /* ZIKMapCategory-dummy.m in Sources */,
+				7D8B5F54C433C4788DAEDD954A4B5704 /* CTMediator+SAMIMMapModule.m in Sources */,
+				7D955D6BC3E98BE1747E8DAC2479D095 /* ReplaceMe.m in Sources */,
+				1D4D24642AD6FCC5B66BE15BEEDBF6EB /* ZIKMapCategory-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +402,7 @@
 		};
 		68C399BAD0FF18ADEEEAF9A4F1953F63 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 077C323550851119D3841D2B0269ECE0 /* ZIKMapCategory.xcconfig */;
+			baseConfigurationReference = 6B341D3F7BEA905D0D78B07C22A7B07C /* ZIKMapCategory.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -399,7 +423,7 @@
 		};
 		6CD63C2B8EEDA15A12610760669E8686 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 077C323550851119D3841D2B0269ECE0 /* ZIKMapCategory.xcconfig */;
+			baseConfigurationReference = 6B341D3F7BEA905D0D78B07C22A7B07C /* ZIKMapCategory.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -441,7 +465,7 @@
 		};
 		9E9EF28405D760E8A6AAC5750C5092D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6912A67F7AA8BC738A75281CBABE7C16 /* CTMediator.xcconfig */;
+			baseConfigurationReference = 0D7EDB1EF9A6F00CDD801632B2E20111 /* CTMediator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -517,7 +541,7 @@
 		};
 		D76E027DC7B7D8E0C70AF85F70482319 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6912A67F7AA8BC738A75281CBABE7C16 /* CTMediator.xcconfig */;
+			baseConfigurationReference = 0D7EDB1EF9A6F00CDD801632B2E20111 /* CTMediator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

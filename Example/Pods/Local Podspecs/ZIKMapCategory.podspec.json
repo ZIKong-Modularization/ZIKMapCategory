@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of ZIKMapCategory.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/811528603@qq.com/ZIKMapCategory",
+  "homepage": "https://github.com/ZIKong-Modularization/ZIKMapCategory",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "811528603@qq.com": "811528603@qq.com"
   },
   "source": {
-    "git": "https://github.com/811528603@qq.com/ZIKMapCategory.git",
+    "git": "https://github.com/ZIKong-Modularization/ZIKMapCategory.git",
     "tag": "0.1.0"
   },
   "platforms": {
