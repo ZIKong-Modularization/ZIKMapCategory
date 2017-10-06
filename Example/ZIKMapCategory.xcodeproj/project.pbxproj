@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D2CD7206C663CFE4CA37063 /* ZIKMapCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZIKMapCategory.podspec; path = ../ZIKMapCategory.podspec; sourceTree = "<group>"; };
+		0D2CD7206C663CFE4CA37063 /* ZIKMapCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZIKMapCategory.podspec; path = ../ZIKMapCategory.podspec; sourceTree = "<group>"; };
 		155A8C65D5B35FB1FF937434 /* Pods-ZIKMapCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZIKMapCategory_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZIKMapCategory_Tests/Pods-ZIKMapCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		47FA2D092273A33A21EE9099 /* Pods_ZIKMapCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZIKMapCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E17337E1AD39F9E687A4A1 /* Pods-ZIKMapCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZIKMapCategory_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZIKMapCategory_Tests/Pods-ZIKMapCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,9 +62,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9CA7343C0F207F8DADBA3CD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9CA7343C0F207F8DADBA3CD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B05E88BBED903AD37ECEA60A /* Pods-ZIKMapCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZIKMapCategory_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZIKMapCategory_Example/Pods-ZIKMapCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D02F5A251A185DA79C26D19D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D02F5A251A185DA79C26D19D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D3B388B1C5F5578AE693794B /* Pods_ZIKMapCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZIKMapCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDBBBBE50ACC0425B5984EE3 /* Pods-ZIKMapCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZIKMapCategory_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZIKMapCategory_Example/Pods-ZIKMapCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -337,10 +337,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZIKMapCategory_Example/Pods-ZIKMapCategory_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/ZIKMapCategory/ZIKMapCategory.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZIKMapCategory.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -521,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -533,9 +535,11 @@
 			baseConfigurationReference = DDBBBBE50ACC0425B5984EE3 /* Pods-ZIKMapCategory_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZIKMapCategory/ZIKMapCategory-Prefix.pch";
 				INFOPLIST_FILE = "ZIKMapCategory/ZIKMapCategory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,9 +552,11 @@
 			baseConfigurationReference = B05E88BBED903AD37ECEA60A /* Pods-ZIKMapCategory_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZIKMapCategory/ZIKMapCategory-Prefix.pch";
 				INFOPLIST_FILE = "ZIKMapCategory/ZIKMapCategory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

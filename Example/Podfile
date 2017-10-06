@@ -1,8 +1,9 @@
+platform :ios, '8.0'
 use_frameworks!
 
 target 'ZIKMapCategory_Example' do
   pod 'ZIKMapCategory', :path => '../'
-
+  pod 'CTMediator'
   target 'ZIKMapCategory_Tests' do
     inherit! :search_paths
 

@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BD487EAB454E612F8D6D2A5A3B4DC2 /* CTMediator+SAMIMMapModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 86151C9CCC6850CF128A8E81838D39ED /* CTMediator+SAMIMMapModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		164EEC40C4B815EF7C8D34A1A50F5C9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */; };
+		21BB792BB968742AF08FA938D377ACC4 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 425E2455073BD7DF1E98F466EBDC8E59 /* CTMediator-dummy.m */; };
+		2423527389DC968168E0AB8C3BA64775 /* Pods-ZIKMapCategory_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D6CAB33F0912CE741D2B7C4BACD38D /* Pods-ZIKMapCategory_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4276D9C94B010809216BB2EB1539FA0C /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 782E758267AEEEDD8C92434C6297D4C4 /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FEB6F79CEEDCF7373D70CE454B80AE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */; };
+		90FCEE640BF5FA83603C35D850B0CB96 /* CTMediator+SAMIMMapModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8068FB494BB7CF755A39905028741A /* CTMediator+SAMIMMapModule.m */; };
+		9980D1F1A0D1B96EDA265B24BC6B544A /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F1EE2E62C9E1D01AE82E2FB1B763D0 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F1AE432D039010A0AA583DD4E682415 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */; };
+		B0580EF3BFF0638C68BF85DF36D1D2C7 /* ZIKMapCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1727AB53AA7874BB190F0483FFEC555 /* ZIKMapCategory-dummy.m */; };
+		B7AC55A4081CA7DE2A3F979F30FF62E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9242C579330E2CBBC7E3B63EAE139B0 /* UIKit.framework */; };
+		C60A461FC8001CBFEA54327F7F1DDBDF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D827A50D0236836C1650B92B71F2F9 /* ReplaceMe.m */; };
+		CB9647E4631F88FDEB4B3B56F1E84FB2 /* ZIKMapCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 474D040EB5D7D0DCB14397AA7D164467 /* ZIKMapCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1F16705A4FE870D4AE660DDC19B15A4 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF06187E81AF3C8B60ED36F38E4371C /* CTMediator.framework */; };
+		E433548D214A4136A1AFE1B9D6B6204D /* Pods-ZIKMapCategory_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F46355671B754D257E85021C1977B6E8 /* Pods-ZIKMapCategory_Tests-dummy.m */; };
+		E5B6ED7F4B14C9A76B48FD236DC274E6 /* Pods-ZIKMapCategory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC64D1E314B71B4CC6B4C8056BBB23 /* Pods-ZIKMapCategory_Example-dummy.m */; };
+		EC7639F00D2DE0AF9D1FA9AA5F43E1AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */; };
+		EC9D5FBF65DB8BCB5B615CBD9A28DB8B /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = BED5ED2424392EA86480465AD716C400 /* CTMediator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EF112B9E13AF6C9D692F336B6FE63094 /* Pods-ZIKMapCategory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54196596AF12D49E5645ED1E12A30DC6 /* Pods-ZIKMapCategory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A01022027F68D974083171ABCB8FD7E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+		D7820CD599BED92826F60216DC3E1BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B0EF2819E2A6D919255350E7528BA40;
+			remoteInfo = ZIKMapCategory;
+		};
+		F55267F41F2C2D8563B4B66A3F0446F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A045C6C71D6A7A4F7AD1114A06B372 /* Pods-ZIKMapCategory_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKMapCategory_Example-resources.sh"; sourceTree = "<group>"; };
+		1226D26F901C4A8EB0C42DF31BC26A10 /* Pods-ZIKMapCategory_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZIKMapCategory_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		133D4F0286D28D94D5758D0A90759425 /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		155EA6B395A6AB50FFFDAA70C04409D5 /* ZIKMapCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIKMapCategory-prefix.pch"; sourceTree = "<group>"; };
+		1F93656B36E5FF2CC23BD4C851514C76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2158256FF7657EF4C4C57579AFDDE75A /* Pods-ZIKMapCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKMapCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		28200CE247022257AF0802A58ECCAE40 /* ZIKMapCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZIKMapCategory.modulemap; sourceTree = "<group>"; };
+		2A5CEA210B0F27222344D916120F909B /* ZIKMapCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZIKMapCategory.framework; path = ZIKMapCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F695A6670257CA103BE08EED2E4126 /* Pods_ZIKMapCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZIKMapCategory_Example.framework; path = "Pods-ZIKMapCategory_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41583680B16D6C29541E9AA106620756 /* Pods-ZIKMapCategory_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKMapCategory_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		425E2455073BD7DF1E98F466EBDC8E59 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		474D040EB5D7D0DCB14397AA7D164467 /* ZIKMapCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIKMapCategory-umbrella.h"; sourceTree = "<group>"; };
+		47D6B18954FA1A781DBBAC728B298573 /* Pods-ZIKMapCategory_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKMapCategory_Tests-resources.sh"; sourceTree = "<group>"; };
+		4AF8DA54A280632A892EA20A5B218631 /* Pods-ZIKMapCategory_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZIKMapCategory_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		54196596AF12D49E5645ED1E12A30DC6 /* Pods-ZIKMapCategory_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZIKMapCategory_Tests-umbrella.h"; sourceTree = "<group>"; };
+		55F1EE2E62C9E1D01AE82E2FB1B763D0 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		5635946CEC8D97428CC4BC1378907995 /* Pods-ZIKMapCategory_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZIKMapCategory_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		688EC4772724A0E8A08CA72758BF234E /* Pods-ZIKMapCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKMapCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		777C334A5C5CCFA9EE734E72C6915A91 /* Pods-ZIKMapCategory_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKMapCategory_Example-frameworks.sh"; sourceTree = "<group>"; };
+		782E758267AEEEDD8C92434C6297D4C4 /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		805F61622A2D190B17F9C40405D4EE15 /* Pods-ZIKMapCategory_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZIKMapCategory_Example.modulemap"; sourceTree = "<group>"; };
+		86151C9CCC6850CF128A8E81838D39ED /* CTMediator+SAMIMMapModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+SAMIMMapModule.h"; path = "ZIKMapCategory/Classes/CTMediator+SAMIMMapModule.h"; sourceTree = "<group>"; };
+		87DFA285DD08DDE4B9F8B81253E19B26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D2B7BB7322228A0E9BF4152D74F563B /* Pods-ZIKMapCategory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZIKMapCategory_Tests.modulemap"; sourceTree = "<group>"; };
+		8FDC64D1E314B71B4CC6B4C8056BBB23 /* Pods-ZIKMapCategory_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZIKMapCategory_Example-dummy.m"; sourceTree = "<group>"; };
+		91C0FD5F79437903298D098A849892BD /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98D3BE83409562D8B6C21F75B68CDC9E /* Pods_ZIKMapCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZIKMapCategory_Tests.framework; path = "Pods-ZIKMapCategory_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB0970447CBB5C2114F9E9A3FEE77B9 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D17D0804BC5CD5CE8EF605A48871502 /* ZIKMapCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIKMapCategory.xcconfig; sourceTree = "<group>"; };
+		A9DBE4B9E1743E6A6031ED82C98981AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7B31EB2D077251DD6AFB4AE50500CC /* Pods-ZIKMapCategory_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZIKMapCategory_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0DA4FE589415918776B20B23DD78E46 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		B1727AB53AA7874BB190F0483FFEC555 /* ZIKMapCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZIKMapCategory-dummy.m"; sourceTree = "<group>"; };
+		B9242C579330E2CBBC7E3B63EAE139B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BED5ED2424392EA86480465AD716C400 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		C0F2BD3B1B302C79DF989D0927B2A033 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D6CAB33F0912CE741D2B7C4BACD38D /* Pods-ZIKMapCategory_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZIKMapCategory_Example-umbrella.h"; sourceTree = "<group>"; };
+		CA7C540BD4A7F318D5C55D20086D188A /* Pods-ZIKMapCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKMapCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D0D827A50D0236836C1650B92B71F2F9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZIKMapCategory/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		DBC7555055F1E7158123429D57A1DCBC /* Pods-ZIKMapCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKMapCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F46355671B754D257E85021C1977B6E8 /* Pods-ZIKMapCategory_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZIKMapCategory_Tests-dummy.m"; sourceTree = "<group>"; };
+		FCF06187E81AF3C8B60ED36F38E4371C /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8068FB494BB7CF755A39905028741A /* CTMediator+SAMIMMapModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+SAMIMMapModule.m"; path = "ZIKMapCategory/Classes/CTMediator+SAMIMMapModule.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EA7D249B27EC17B36E6B16063A072E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEB6F79CEEDCF7373D70CE454B80AE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920C82B26BE8CD714CF1333E454BCB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164EEC40C4B815EF7C8D34A1A50F5C9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF57AE4C0B3CA25F26FDFC9980E60EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1AE432D039010A0AA583DD4E682415 /* Foundation.framework in Frameworks */,
+				B7AC55A4081CA7DE2A3F979F30FF62E1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA35CC1D62FC7C387173702B453717DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F16705A4FE870D4AE660DDC19B15A4 /* CTMediator.framework in Frameworks */,
+				EC7639F00D2DE0AF9D1FA9AA5F43E1AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067276DEDEBD203659AD42D25B611291 /* ZIKMapCategory */ = {
+			isa = PBXGroup;
+			children = (
+				86151C9CCC6850CF128A8E81838D39ED /* CTMediator+SAMIMMapModule.h */,
+				FD8068FB494BB7CF755A39905028741A /* CTMediator+SAMIMMapModule.m */,
+				D0D827A50D0236836C1650B92B71F2F9 /* ReplaceMe.m */,
+				69C40FF8B9591573AF57D723E70CB760 /* Support Files */,
+			);
+			name = ZIKMapCategory;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		16216A3033A9965DA5C0FC9A497AB9F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56C2F0F3E01D93369D829ADE4BF2E5F0 /* CTMediator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		23F6A59214E44BF7B92C32C407EF9D70 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */,
+				B9242C579330E2CBBC7E3B63EAE139B0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		41B41B8754393E77946DACD40647B2D5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB447E9897B5B8003A2F0556D542372B /* Pods-ZIKMapCategory_Example */,
+				E12FFD727D5F78335DF580CF090F174F /* Pods-ZIKMapCategory_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		46AD910E34496921A389A28F025AA9AC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				067276DEDEBD203659AD42D25B611291 /* ZIKMapCategory */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		56C2F0F3E01D93369D829ADE4BF2E5F0 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				55F1EE2E62C9E1D01AE82E2FB1B763D0 /* CTMediator.h */,
+				BED5ED2424392EA86480465AD716C400 /* CTMediator.m */,
+				F10C8EAD9E57E2A5D715820331230697 /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		69C40FF8B9591573AF57D723E70CB760 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9DBE4B9E1743E6A6031ED82C98981AB /* Info.plist */,
+				28200CE247022257AF0802A58ECCAE40 /* ZIKMapCategory.modulemap */,
+				9D17D0804BC5CD5CE8EF605A48871502 /* ZIKMapCategory.xcconfig */,
+				B1727AB53AA7874BB190F0483FFEC555 /* ZIKMapCategory-dummy.m */,
+				155EA6B395A6AB50FFFDAA70C04409D5 /* ZIKMapCategory-prefix.pch */,
+				474D040EB5D7D0DCB14397AA7D164467 /* ZIKMapCategory-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZIKMapCategory";
+			sourceTree = "<group>";
+		};
+		7C1C54E5C0338208FF11DF2D6A81BF5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCF06187E81AF3C8B60ED36F38E4371C /* CTMediator.framework */,
+				23F6A59214E44BF7B92C32C407EF9D70 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				46AD910E34496921A389A28F025AA9AC /* Development Pods */,
+				7C1C54E5C0338208FF11DF2D6A81BF5E /* Frameworks */,
+				16216A3033A9965DA5C0FC9A497AB9F5 /* Pods */,
+				D349205AF988A6264A992464821CC2DD /* Products */,
+				41B41B8754393E77946DACD40647B2D5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D349205AF988A6264A992464821CC2DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AB0970447CBB5C2114F9E9A3FEE77B9 /* CTMediator.framework */,
+				37F695A6670257CA103BE08EED2E4126 /* Pods_ZIKMapCategory_Example.framework */,
+				98D3BE83409562D8B6C21F75B68CDC9E /* Pods_ZIKMapCategory_Tests.framework */,
+				2A5CEA210B0F27222344D916120F909B /* ZIKMapCategory.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E12FFD727D5F78335DF580CF090F174F /* Pods-ZIKMapCategory_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C0F2BD3B1B302C79DF989D0927B2A033 /* Info.plist */,
+				8D2B7BB7322228A0E9BF4152D74F563B /* Pods-ZIKMapCategory_Tests.modulemap */,
+				AA7B31EB2D077251DD6AFB4AE50500CC /* Pods-ZIKMapCategory_Tests-acknowledgements.markdown */,
+				4AF8DA54A280632A892EA20A5B218631 /* Pods-ZIKMapCategory_Tests-acknowledgements.plist */,
+				F46355671B754D257E85021C1977B6E8 /* Pods-ZIKMapCategory_Tests-dummy.m */,
+				41583680B16D6C29541E9AA106620756 /* Pods-ZIKMapCategory_Tests-frameworks.sh */,
+				47D6B18954FA1A781DBBAC728B298573 /* Pods-ZIKMapCategory_Tests-resources.sh */,
+				54196596AF12D49E5645ED1E12A30DC6 /* Pods-ZIKMapCategory_Tests-umbrella.h */,
+				688EC4772724A0E8A08CA72758BF234E /* Pods-ZIKMapCategory_Tests.debug.xcconfig */,
+				2158256FF7657EF4C4C57579AFDDE75A /* Pods-ZIKMapCategory_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZIKMapCategory_Tests";
+			path = "Target Support Files/Pods-ZIKMapCategory_Tests";
+			sourceTree = "<group>";
+		};
+		F10C8EAD9E57E2A5D715820331230697 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				133D4F0286D28D94D5758D0A90759425 /* CTMediator.modulemap */,
+				B0DA4FE589415918776B20B23DD78E46 /* CTMediator.xcconfig */,
+				425E2455073BD7DF1E98F466EBDC8E59 /* CTMediator-dummy.m */,
+				91C0FD5F79437903298D098A849892BD /* CTMediator-prefix.pch */,
+				782E758267AEEEDD8C92434C6297D4C4 /* CTMediator-umbrella.h */,
+				1F93656B36E5FF2CC23BD4C851514C76 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		FB447E9897B5B8003A2F0556D542372B /* Pods-ZIKMapCategory_Example */ = {
+			isa = PBXGroup;
+			children = (
+				87DFA285DD08DDE4B9F8B81253E19B26 /* Info.plist */,
+				805F61622A2D190B17F9C40405D4EE15 /* Pods-ZIKMapCategory_Example.modulemap */,
+				1226D26F901C4A8EB0C42DF31BC26A10 /* Pods-ZIKMapCategory_Example-acknowledgements.markdown */,
+				5635946CEC8D97428CC4BC1378907995 /* Pods-ZIKMapCategory_Example-acknowledgements.plist */,
+				8FDC64D1E314B71B4CC6B4C8056BBB23 /* Pods-ZIKMapCategory_Example-dummy.m */,
+				777C334A5C5CCFA9EE734E72C6915A91 /* Pods-ZIKMapCategory_Example-frameworks.sh */,
+				01A045C6C71D6A7A4F7AD1114A06B372 /* Pods-ZIKMapCategory_Example-resources.sh */,
+				C5D6CAB33F0912CE741D2B7C4BACD38D /* Pods-ZIKMapCategory_Example-umbrella.h */,
+				DBC7555055F1E7158123429D57A1DCBC /* Pods-ZIKMapCategory_Example.debug.xcconfig */,
+				CA7C540BD4A7F318D5C55D20086D188A /* Pods-ZIKMapCategory_Example.release.xcconfig */,
+			);
+			name = "Pods-ZIKMapCategory_Example";
+			path = "Target Support Files/Pods-ZIKMapCategory_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		000F2AAA018022EAC017735186225EC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4276D9C94B010809216BB2EB1539FA0C /* CTMediator-umbrella.h in Headers */,
+				9980D1F1A0D1B96EDA265B24BC6B544A /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0703F63D25161D8042A2654B943563 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BD487EAB454E612F8D6D2A5A3B4DC2 /* CTMediator+SAMIMMapModule.h in Headers */,
+				CB9647E4631F88FDEB4B3B56F1E84FB2 /* ZIKMapCategory-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AC5B9E13286BBE37F4C71C996602E46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2423527389DC968168E0AB8C3BA64775 /* Pods-ZIKMapCategory_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2682B3A5ED69C4033FDA1E3E94960E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF112B9E13AF6C9D692F336B6FE63094 /* Pods-ZIKMapCategory_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1410C815BA933E262C312E5A008FB80C /* Pods-ZIKMapCategory_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54E4AF726D28B95C74C351FCE8378E36 /* Build configuration list for PBXNativeTarget "Pods-ZIKMapCategory_Example" */;
+			buildPhases = (
+				974859B477FF30D487FED752CD482497 /* Sources */,
+				4EA7D249B27EC17B36E6B16063A072E7 /* Frameworks */,
+				5AC5B9E13286BBE37F4C71C996602E46 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F654D88F1C1B730A081D12B00B02075B /* PBXTargetDependency */,
+				E7F3A9CC9F938254BB5EE53B6472047F /* PBXTargetDependency */,
+			);
+			name = "Pods-ZIKMapCategory_Example";
+			productName = "Pods-ZIKMapCategory_Example";
+			productReference = 37F695A6670257CA103BE08EED2E4126 /* Pods_ZIKMapCategory_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		29C491382F9F134D054379C32DA8DD78 /* Pods-ZIKMapCategory_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE5300DC02B7D88A4EE779DCBD1A166 /* Build configuration list for PBXNativeTarget "Pods-ZIKMapCategory_Tests" */;
+			buildPhases = (
+				0934B28B6A1AA84985B29465BE18E01D /* Sources */,
+				920C82B26BE8CD714CF1333E454BCB66 /* Frameworks */,
+				DB2682B3A5ED69C4033FDA1E3E94960E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZIKMapCategory_Tests";
+			productName = "Pods-ZIKMapCategory_Tests";
+			productReference = 98D3BE83409562D8B6C21F75B68CDC9E /* Pods_ZIKMapCategory_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B0EF2819E2A6D919255350E7528BA40 /* ZIKMapCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040B2D08C68A9915F1C6C31F1E127EA0 /* Build configuration list for PBXNativeTarget "ZIKMapCategory" */;
+			buildPhases = (
+				60495D46E2131E644A883E3162A75A71 /* Sources */,
+				CA35CC1D62FC7C387173702B453717DD /* Frameworks */,
+				3D0703F63D25161D8042A2654B943563 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93908E780C484297ED6955F386D38574 /* PBXTargetDependency */,
+			);
+			name = ZIKMapCategory;
+			productName = ZIKMapCategory;
+			productReference = 2A5CEA210B0F27222344D916120F909B /* ZIKMapCategory.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		685EB18B6B251DBD96963DFED5E895BB /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A7DBAB793AE14E5B11F08DE3A08B40 /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				2822373935C0BFF2631FD177CE33A87B /* Sources */,
+				AF57AE4C0B3CA25F26FDFC9980E60EEB /* Frameworks */,
+				000F2AAA018022EAC017735186225EC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 9AB0970447CBB5C2114F9E9A3FEE77B9 /* CTMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D349205AF988A6264A992464821CC2DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685EB18B6B251DBD96963DFED5E895BB /* CTMediator */,
+				1410C815BA933E262C312E5A008FB80C /* Pods-ZIKMapCategory_Example */,
+				29C491382F9F134D054379C32DA8DD78 /* Pods-ZIKMapCategory_Tests */,
+				5B0EF2819E2A6D919255350E7528BA40 /* ZIKMapCategory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0934B28B6A1AA84985B29465BE18E01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E433548D214A4136A1AFE1B9D6B6204D /* Pods-ZIKMapCategory_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2822373935C0BFF2631FD177CE33A87B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BB792BB968742AF08FA938D377ACC4 /* CTMediator-dummy.m in Sources */,
+				EC9D5FBF65DB8BCB5B615CBD9A28DB8B /* CTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60495D46E2131E644A883E3162A75A71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90FCEE640BF5FA83603C35D850B0CB96 /* CTMediator+SAMIMMapModule.m in Sources */,
+				C60A461FC8001CBFEA54327F7F1DDBDF /* ReplaceMe.m in Sources */,
+				B0580EF3BFF0638C68BF85DF36D1D2C7 /* ZIKMapCategory-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974859B477FF30D487FED752CD482497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B6ED7F4B14C9A76B48FD236DC274E6 /* Pods-ZIKMapCategory_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93908E780C484297ED6955F386D38574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = A01022027F68D974083171ABCB8FD7E8 /* PBXContainerItemProxy */;
+		};
+		E7F3A9CC9F938254BB5EE53B6472047F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZIKMapCategory;
+			target = 5B0EF2819E2A6D919255350E7528BA40 /* ZIKMapCategory */;
+			targetProxy = D7820CD599BED92826F60216DC3E1BCD /* PBXContainerItemProxy */;
+		};
+		F654D88F1C1B730A081D12B00B02075B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = F55267F41F2C2D8563B4B66A3F0446F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FF530E8BB01193372D53668C18B7813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7C540BD4A7F318D5C55D20086D188A /* Pods-ZIKMapCategory_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZIKMapCategory_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZIKMapCategory_Example/Pods-ZIKMapCategory_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZIKMapCategory_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		221AABEB8653264CC3DF6BD7C6CC7974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 688EC4772724A0E8A08CA72758BF234E /* Pods-ZIKMapCategory_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZIKMapCategory_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZIKMapCategory_Tests/Pods-ZIKMapCategory_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZIKMapCategory_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A646052F6F47FC68C261BA55F5AE02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D17D0804BC5CD5CE8EF605A48871502 /* ZIKMapCategory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZIKMapCategory/ZIKMapCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZIKMapCategory/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZIKMapCategory/ZIKMapCategory.modulemap";
+				PRODUCT_NAME = ZIKMapCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75C4CE6190B6EEF55D8A716F0223D2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D17D0804BC5CD5CE8EF605A48871502 /* ZIKMapCategory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZIKMapCategory/ZIKMapCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZIKMapCategory/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZIKMapCategory/ZIKMapCategory.modulemap";
+				PRODUCT_NAME = ZIKMapCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A66987AE359D6BD36DF663E3677138C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2158256FF7657EF4C4C57579AFDDE75A /* Pods-ZIKMapCategory_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZIKMapCategory_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZIKMapCategory_Tests/Pods-ZIKMapCategory_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZIKMapCategory_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AFDFC66CBB3F9DFDB3ECE29B08B0DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0DA4FE589415918776B20B23DD78E46 /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C1FE7EF6A8A6FC3739412CD74773835F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC7555055F1E7158123429D57A1DCBC /* Pods-ZIKMapCategory_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZIKMapCategory_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZIKMapCategory_Example/Pods-ZIKMapCategory_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZIKMapCategory_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDE6ACFB7465D958067F0EF63A0615B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0DA4FE589415918776B20B23DD78E46 /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040B2D08C68A9915F1C6C31F1E127EA0 /* Build configuration list for PBXNativeTarget "ZIKMapCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C4CE6190B6EEF55D8A716F0223D2BA /* Debug */,
+				3A646052F6F47FC68C261BA55F5AE02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54E4AF726D28B95C74C351FCE8378E36 /* Build configuration list for PBXNativeTarget "Pods-ZIKMapCategory_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FE7EF6A8A6FC3739412CD74773835F /* Debug */,
+				1FF530E8BB01193372D53668C18B7813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A7DBAB793AE14E5B11F08DE3A08B40 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFDFC66CBB3F9DFDB3ECE29B08B0DFE /* Debug */,
+				CDE6ACFB7465D958067F0EF63A0615B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE5300DC02B7D88A4EE779DCBD1A166 /* Build configuration list for PBXNativeTarget "Pods-ZIKMapCategory_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221AABEB8653264CC3DF6BD7C6CC7974 /* Debug */,
+				8A66987AE359D6BD36DF663E3677138C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
